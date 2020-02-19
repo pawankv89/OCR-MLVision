@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D447CC4923DB5998004D3BED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447CC4823DB5998004D3BED /* AppDelegate.swift */; };
+		D447CC4B23DB5998004D3BED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447CC4A23DB5998004D3BED /* SceneDelegate.swift */; };
+		D447CC4D23DB5998004D3BED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447CC4C23DB5998004D3BED /* ViewController.swift */; };
+		D447CC5023DB5998004D3BED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D447CC4E23DB5998004D3BED /* Main.storyboard */; };
+		D447CC5223DB599B004D3BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D447CC5123DB599B004D3BED /* Assets.xcassets */; };
+		D447CC5523DB599B004D3BED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D447CC5323DB599B004D3BED /* LaunchScreen.storyboard */; };
+		D447CC6023DB599B004D3BED /* OCR_MLVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447CC5F23DB599B004D3BED /* OCR_MLVisionTests.swift */; };
+		D447CC6B23DB599B004D3BED /* OCR_MLVisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447CC6A23DB599B004D3BED /* OCR_MLVisionUITests.swift */; };
+		D447CC7F23DB5B4F004D3BED /* Pawan_de.png in Resources */ = {isa = PBXBuildFile; fileRef = D447CC7923DB5B4F004D3BED /* Pawan_de.png */; };
+		D447CC8023DB5B4F004D3BED /* Pawan_text.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D447CC7A23DB5B4F004D3BED /* Pawan_text.rtf */; };
+		D447CC8123DB5B4F004D3BED /* Pawan_en.png in Resources */ = {isa = PBXBuildFile; fileRef = D447CC7B23DB5B4F004D3BED /* Pawan_en.png */; };
+		D447CC8223DB5B4F004D3BED /* Pawan_fr.png in Resources */ = {isa = PBXBuildFile; fileRef = D447CC7C23DB5B4F004D3BED /* Pawan_fr.png */; };
+		D447CC8323DB5B4F004D3BED /* Pawan_jp.png in Resources */ = {isa = PBXBuildFile; fileRef = D447CC7D23DB5B4F004D3BED /* Pawan_jp.png */; };
+		D447CC8423DB5B4F004D3BED /* Pawan_ru.png in Resources */ = {isa = PBXBuildFile; fileRef = D447CC7E23DB5B4F004D3BED /* Pawan_ru.png */; };
+		D447CC8723DB5B5C004D3BED /* ReadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D447CC8523DB5B5C004D3BED /* ReadCell.xib */; };
+		D447CC8823DB5B5C004D3BED /* ReadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447CC8623DB5B5C004D3BED /* ReadCell.swift */; };
+		D447CC8A23DB6454004D3BED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D447CC8923DB6454004D3BED /* GoogleService-Info.plist */; };
+		D76073B4CAA10BB933393F73 /* Pods_OCR_MLVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7592DBE8CE3A790EF96CDD9C /* Pods_OCR_MLVision.framework */; };
+		E37592D26437AF64E6C4148F /* Pods_OCR_MLVision_OCR_MLVisionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D74E9EED4F5C43A0AD9636B /* Pods_OCR_MLVision_OCR_MLVisionUITests.framework */; };
+		FA347025121FEF272EF1F4A1 /* Pods_OCR_MLVisionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C275429FC241618DC68790 /* Pods_OCR_MLVisionTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D447CC5C23DB599B004D3BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D447CC3D23DB5998004D3BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D447CC4423DB5998004D3BED;
+			remoteInfo = "OCR-MLVision";
+		};
+		D447CC6723DB599B004D3BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D447CC3D23DB5998004D3BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D447CC4423DB5998004D3BED;
+			remoteInfo = "OCR-MLVision";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23B82C71A9D473722FCAB077 /* Pods-OCR-MLVision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR-MLVision.release.xcconfig"; path = "Target Support Files/Pods-OCR-MLVision/Pods-OCR-MLVision.release.xcconfig"; sourceTree = "<group>"; };
+		2794FCC24198E1BA47EF35D9 /* Pods-OCR-MLVision-OCR-MLVisionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR-MLVision-OCR-MLVisionUITests.debug.xcconfig"; path = "Target Support Files/Pods-OCR-MLVision-OCR-MLVisionUITests/Pods-OCR-MLVision-OCR-MLVisionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		60346482FDA7EDFE3AF654E3 /* Pods-OCR-MLVisionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR-MLVisionTests.debug.xcconfig"; path = "Target Support Files/Pods-OCR-MLVisionTests/Pods-OCR-MLVisionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D74E9EED4F5C43A0AD9636B /* Pods_OCR_MLVision_OCR_MLVisionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCR_MLVision_OCR_MLVisionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		733DC44A7974C97182F6731F /* Pods-OCR-MLVision-OCR-MLVisionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR-MLVision-OCR-MLVisionUITests.release.xcconfig"; path = "Target Support Files/Pods-OCR-MLVision-OCR-MLVisionUITests/Pods-OCR-MLVision-OCR-MLVisionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		74C275429FC241618DC68790 /* Pods_OCR_MLVisionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCR_MLVisionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7592DBE8CE3A790EF96CDD9C /* Pods_OCR_MLVision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCR_MLVision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81FE9473D28F126DD6D84714 /* Pods-OCR-MLVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR-MLVision.debug.xcconfig"; path = "Target Support Files/Pods-OCR-MLVision/Pods-OCR-MLVision.debug.xcconfig"; sourceTree = "<group>"; };
+		C5F2D25E1C1FCBEA8CCD1DD0 /* Pods-OCR-MLVisionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR-MLVisionTests.release.xcconfig"; path = "Target Support Files/Pods-OCR-MLVisionTests/Pods-OCR-MLVisionTests.release.xcconfig"; sourceTree = "<group>"; };
+		D447CC4523DB5998004D3BED /* OCR-MLVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OCR-MLVision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D447CC4823DB5998004D3BED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D447CC4A23DB5998004D3BED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D447CC4C23DB5998004D3BED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D447CC4F23DB5998004D3BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D447CC5123DB599B004D3BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D447CC5423DB599B004D3BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D447CC5623DB599B004D3BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D447CC5B23DB599B004D3BED /* OCR-MLVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCR-MLVisionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D447CC5F23DB599B004D3BED /* OCR_MLVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCR_MLVisionTests.swift; sourceTree = "<group>"; };
+		D447CC6123DB599B004D3BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D447CC6623DB599B004D3BED /* OCR-MLVisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCR-MLVisionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D447CC6A23DB599B004D3BED /* OCR_MLVisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCR_MLVisionUITests.swift; sourceTree = "<group>"; };
+		D447CC6C23DB599B004D3BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D447CC7923DB5B4F004D3BED /* Pawan_de.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pawan_de.png; sourceTree = "<group>"; };
+		D447CC7A23DB5B4F004D3BED /* Pawan_text.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Pawan_text.rtf; sourceTree = "<group>"; };
+		D447CC7B23DB5B4F004D3BED /* Pawan_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pawan_en.png; sourceTree = "<group>"; };
+		D447CC7C23DB5B4F004D3BED /* Pawan_fr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pawan_fr.png; sourceTree = "<group>"; };
+		D447CC7D23DB5B4F004D3BED /* Pawan_jp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pawan_jp.png; sourceTree = "<group>"; };
+		D447CC7E23DB5B4F004D3BED /* Pawan_ru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pawan_ru.png; sourceTree = "<group>"; };
+		D447CC8523DB5B5C004D3BED /* ReadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReadCell.xib; sourceTree = "<group>"; };
+		D447CC8623DB5B5C004D3BED /* ReadCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadCell.swift; sourceTree = "<group>"; };
+		D447CC8923DB6454004D3BED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D447CC4223DB5998004D3BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76073B4CAA10BB933393F73 /* Pods_OCR_MLVision.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D447CC5823DB599B004D3BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA347025121FEF272EF1F4A1 /* Pods_OCR_MLVisionTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D447CC6323DB599B004D3BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37592D26437AF64E6C4148F /* Pods_OCR_MLVision_OCR_MLVisionUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2852F5EB972A98EB4ADB447B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7592DBE8CE3A790EF96CDD9C /* Pods_OCR_MLVision.framework */,
+				6D74E9EED4F5C43A0AD9636B /* Pods_OCR_MLVision_OCR_MLVisionUITests.framework */,
+				74C275429FC241618DC68790 /* Pods_OCR_MLVisionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F1DC000BF00096F7BED71FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81FE9473D28F126DD6D84714 /* Pods-OCR-MLVision.debug.xcconfig */,
+				23B82C71A9D473722FCAB077 /* Pods-OCR-MLVision.release.xcconfig */,
+				2794FCC24198E1BA47EF35D9 /* Pods-OCR-MLVision-OCR-MLVisionUITests.debug.xcconfig */,
+				733DC44A7974C97182F6731F /* Pods-OCR-MLVision-OCR-MLVisionUITests.release.xcconfig */,
+				60346482FDA7EDFE3AF654E3 /* Pods-OCR-MLVisionTests.debug.xcconfig */,
+				C5F2D25E1C1FCBEA8CCD1DD0 /* Pods-OCR-MLVisionTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D447CC3C23DB5998004D3BED = {
+			isa = PBXGroup;
+			children = (
+				D447CC4723DB5998004D3BED /* OCR-MLVision */,
+				D447CC5E23DB599B004D3BED /* OCR-MLVisionTests */,
+				D447CC6923DB599B004D3BED /* OCR-MLVisionUITests */,
+				D447CC4623DB5998004D3BED /* Products */,
+				2F1DC000BF00096F7BED71FC /* Pods */,
+				2852F5EB972A98EB4ADB447B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D447CC4623DB5998004D3BED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D447CC4523DB5998004D3BED /* OCR-MLVision.app */,
+				D447CC5B23DB599B004D3BED /* OCR-MLVisionTests.xctest */,
+				D447CC6623DB599B004D3BED /* OCR-MLVisionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D447CC4723DB5998004D3BED /* OCR-MLVision */ = {
+			isa = PBXGroup;
+			children = (
+				D447CC7823DB5B4F004D3BED /* Resources */,
+				D447CC4823DB5998004D3BED /* AppDelegate.swift */,
+				D447CC4A23DB5998004D3BED /* SceneDelegate.swift */,
+				D447CC4C23DB5998004D3BED /* ViewController.swift */,
+				D447CC8623DB5B5C004D3BED /* ReadCell.swift */,
+				D447CC8523DB5B5C004D3BED /* ReadCell.xib */,
+				D447CC4E23DB5998004D3BED /* Main.storyboard */,
+				D447CC5123DB599B004D3BED /* Assets.xcassets */,
+				D447CC5323DB599B004D3BED /* LaunchScreen.storyboard */,
+				D447CC5623DB599B004D3BED /* Info.plist */,
+				D447CC8923DB6454004D3BED /* GoogleService-Info.plist */,
+			);
+			path = "OCR-MLVision";
+			sourceTree = "<group>";
+		};
+		D447CC5E23DB599B004D3BED /* OCR-MLVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D447CC5F23DB599B004D3BED /* OCR_MLVisionTests.swift */,
+				D447CC6123DB599B004D3BED /* Info.plist */,
+			);
+			path = "OCR-MLVisionTests";
+			sourceTree = "<group>";
+		};
+		D447CC6923DB599B004D3BED /* OCR-MLVisionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D447CC6A23DB599B004D3BED /* OCR_MLVisionUITests.swift */,
+				D447CC6C23DB599B004D3BED /* Info.plist */,
+			);
+			path = "OCR-MLVisionUITests";
+			sourceTree = "<group>";
+		};
+		D447CC7823DB5B4F004D3BED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D447CC7923DB5B4F004D3BED /* Pawan_de.png */,
+				D447CC7A23DB5B4F004D3BED /* Pawan_text.rtf */,
+				D447CC7B23DB5B4F004D3BED /* Pawan_en.png */,
+				D447CC7C23DB5B4F004D3BED /* Pawan_fr.png */,
+				D447CC7D23DB5B4F004D3BED /* Pawan_jp.png */,
+				D447CC7E23DB5B4F004D3BED /* Pawan_ru.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D447CC4423DB5998004D3BED /* OCR-MLVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D447CC6F23DB599B004D3BED /* Build configuration list for PBXNativeTarget "OCR-MLVision" */;
+			buildPhases = (
+				3550AD663E553A35A99C9581 /* [CP] Check Pods Manifest.lock */,
+				D447CC4123DB5998004D3BED /* Sources */,
+				D447CC4223DB5998004D3BED /* Frameworks */,
+				D447CC4323DB5998004D3BED /* Resources */,
+				6E2FB0E6701F145136646741 /* [CP] Embed Pods Frameworks */,
+				23E0ADCAB5D765262C05F282 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OCR-MLVision";
+			productName = "OCR-MLVision";
+			productReference = D447CC4523DB5998004D3BED /* OCR-MLVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D447CC5A23DB599B004D3BED /* OCR-MLVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D447CC7223DB599B004D3BED /* Build configuration list for PBXNativeTarget "OCR-MLVisionTests" */;
+			buildPhases = (
+				BBD3E599A65F7DB4A1AB2FA0 /* [CP] Check Pods Manifest.lock */,
+				D447CC5723DB599B004D3BED /* Sources */,
+				D447CC5823DB599B004D3BED /* Frameworks */,
+				D447CC5923DB599B004D3BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D447CC5D23DB599B004D3BED /* PBXTargetDependency */,
+			);
+			name = "OCR-MLVisionTests";
+			productName = "OCR-MLVisionTests";
+			productReference = D447CC5B23DB599B004D3BED /* OCR-MLVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D447CC6523DB599B004D3BED /* OCR-MLVisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D447CC7523DB599B004D3BED /* Build configuration list for PBXNativeTarget "OCR-MLVisionUITests" */;
+			buildPhases = (
+				05B8DC2F808085789874D9A4 /* [CP] Check Pods Manifest.lock */,
+				D447CC6223DB599B004D3BED /* Sources */,
+				D447CC6323DB599B004D3BED /* Frameworks */,
+				D447CC6423DB599B004D3BED /* Resources */,
+				5B0DC143FC3A7C2DC6A5D274 /* [CP] Embed Pods Frameworks */,
+				32C5799B979C890707245960 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D447CC6823DB599B004D3BED /* PBXTargetDependency */,
+			);
+			name = "OCR-MLVisionUITests";
+			productName = "OCR-MLVisionUITests";
+			productReference = D447CC6623DB599B004D3BED /* OCR-MLVisionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D447CC3D23DB5998004D3BED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Pawan Kumar";
+				TargetAttributes = {
+					D447CC4423DB5998004D3BED = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					D447CC5A23DB599B004D3BED = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = D447CC4423DB5998004D3BED;
+					};
+					D447CC6523DB599B004D3BED = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = D447CC4423DB5998004D3BED;
+					};
+				};
+			};
+			buildConfigurationList = D447CC4023DB5998004D3BED /* Build configuration list for PBXProject "OCR-MLVision" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D447CC3C23DB5998004D3BED;
+			productRefGroup = D447CC4623DB5998004D3BED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D447CC4423DB5998004D3BED /* OCR-MLVision */,
+				D447CC5A23DB599B004D3BED /* OCR-MLVisionTests */,
+				D447CC6523DB599B004D3BED /* OCR-MLVisionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D447CC4323DB5998004D3BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D447CC8423DB5B4F004D3BED /* Pawan_ru.png in Resources */,
+				D447CC8123DB5B4F004D3BED /* Pawan_en.png in Resources */,
+				D447CC5523DB599B004D3BED /* LaunchScreen.storyboard in Resources */,
+				D447CC8723DB5B5C004D3BED /* ReadCell.xib in Resources */,
+				D447CC5223DB599B004D3BED /* Assets.xcassets in Resources */,
+				D447CC7F23DB5B4F004D3BED /* Pawan_de.png in Resources */,
+				D447CC5023DB5998004D3BED /* Main.storyboard in Resources */,
+				D447CC8223DB5B4F004D3BED /* Pawan_fr.png in Resources */,
+				D447CC8A23DB6454004D3BED /* GoogleService-Info.plist in Resources */,
+				D447CC8023DB5B4F004D3BED /* Pawan_text.rtf in Resources */,
+				D447CC8323DB5B4F004D3BED /* Pawan_jp.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D447CC5923DB599B004D3BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D447CC6423DB599B004D3BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05B8DC2F808085789874D9A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCR-MLVision-OCR-MLVisionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23E0ADCAB5D765262C05F282 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR-MLVision/Pods-OCR-MLVision-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR-MLVision/Pods-OCR-MLVision-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCR-MLVision/Pods-OCR-MLVision-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32C5799B979C890707245960 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR-MLVision-OCR-MLVisionUITests/Pods-OCR-MLVision-OCR-MLVisionUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR-MLVision-OCR-MLVisionUITests/Pods-OCR-MLVision-OCR-MLVisionUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCR-MLVision-OCR-MLVisionUITests/Pods-OCR-MLVision-OCR-MLVisionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3550AD663E553A35A99C9581 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCR-MLVision-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B0DC143FC3A7C2DC6A5D274 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR-MLVision-OCR-MLVisionUITests/Pods-OCR-MLVision-OCR-MLVisionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR-MLVision-OCR-MLVisionUITests/Pods-OCR-MLVision-OCR-MLVisionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCR-MLVision-OCR-MLVisionUITests/Pods-OCR-MLVision-OCR-MLVisionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E2FB0E6701F145136646741 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR-MLVision/Pods-OCR-MLVision-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR-MLVision/Pods-OCR-MLVision-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCR-MLVision/Pods-OCR-MLVision-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBD3E599A65F7DB4A1AB2FA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCR-MLVisionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D447CC4123DB5998004D3BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D447CC4D23DB5998004D3BED /* ViewController.swift in Sources */,
+				D447CC8823DB5B5C004D3BED /* ReadCell.swift in Sources */,
+				D447CC4923DB5998004D3BED /* AppDelegate.swift in Sources */,
+				D447CC4B23DB5998004D3BED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D447CC5723DB599B004D3BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D447CC6023DB599B004D3BED /* OCR_MLVisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D447CC6223DB599B004D3BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D447CC6B23DB599B004D3BED /* OCR_MLVisionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D447CC5D23DB599B004D3BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D447CC4423DB5998004D3BED /* OCR-MLVision */;
+			targetProxy = D447CC5C23DB599B004D3BED /* PBXContainerItemProxy */;
+		};
+		D447CC6823DB599B004D3BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D447CC4423DB5998004D3BED /* OCR-MLVision */;
+			targetProxy = D447CC6723DB599B004D3BED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D447CC4E23DB5998004D3BED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D447CC4F23DB5998004D3BED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D447CC5323DB599B004D3BED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D447CC5423DB599B004D3BED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D447CC6D23DB599B004D3BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D447CC6E23DB599B004D3BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D447CC7023DB599B004D3BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81FE9473D28F126DD6D84714 /* Pods-OCR-MLVision.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCR-MLVision/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.poc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D447CC7123DB599B004D3BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B82C71A9D473722FCAB077 /* Pods-OCR-MLVision.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCR-MLVision/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.poc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D447CC7323DB599B004D3BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60346482FDA7EDFE3AF654E3 /* Pods-OCR-MLVisionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCR-MLVisionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.poc.OCR-MLVisionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCR-MLVision.app/OCR-MLVision";
+			};
+			name = Debug;
+		};
+		D447CC7423DB599B004D3BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5F2D25E1C1FCBEA8CCD1DD0 /* Pods-OCR-MLVisionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCR-MLVisionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.poc.OCR-MLVisionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCR-MLVision.app/OCR-MLVision";
+			};
+			name = Release;
+		};
+		D447CC7623DB599B004D3BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2794FCC24198E1BA47EF35D9 /* Pods-OCR-MLVision-OCR-MLVisionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCR-MLVisionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.poc.OCR-MLVisionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OCR-MLVision";
+			};
+			name = Debug;
+		};
+		D447CC7723DB599B004D3BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 733DC44A7974C97182F6731F /* Pods-OCR-MLVision-OCR-MLVisionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCR-MLVisionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.poc.OCR-MLVisionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OCR-MLVision";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D447CC4023DB5998004D3BED /* Build configuration list for PBXProject "OCR-MLVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D447CC6D23DB599B004D3BED /* Debug */,
+				D447CC6E23DB599B004D3BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D447CC6F23DB599B004D3BED /* Build configuration list for PBXNativeTarget "OCR-MLVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D447CC7023DB599B004D3BED /* Debug */,
+				D447CC7123DB599B004D3BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D447CC7223DB599B004D3BED /* Build configuration list for PBXNativeTarget "OCR-MLVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D447CC7323DB599B004D3BED /* Debug */,
+				D447CC7423DB599B004D3BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D447CC7523DB599B004D3BED /* Build configuration list for PBXNativeTarget "OCR-MLVisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D447CC7623DB599B004D3BED /* Debug */,
+				D447CC7723DB599B004D3BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D447CC3D23DB5998004D3BED /* Project object */;
+}
